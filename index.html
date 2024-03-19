@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Number Guessing Application</h1>
+        <h2>Rules:</h2>
+        
+        <li id ="a">Select a number from 1 to 100</li>
+        <li id ="b">Click on the check button</li>
+        <li id="c">It will give you a hint to guess the number correctly</li>
+        <li id="d">Repeat the same step until you find the number</li>
+        <input type="number" placeholder="Enter the Number" id="n1">
+        <h1 id="res">Wait for the result!</h1>
+        <h2 id="tries"></h2>
+        <input class ="z" type="submit" value="Check" onclick="findNumber()">
+        <input class ="y" type="submit" value="Reset" onclick="window.location.reload()">
+
+        <script src="./design.js"></script>
+
+    </div>
+
+</body>
+</html>

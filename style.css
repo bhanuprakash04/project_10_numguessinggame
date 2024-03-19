@@ -1,0 +1,44 @@
+.main{
+    text-align: center;
+    background: linear-gradient(rgb(210, 24, 24),white);
+    height:600px;
+    width:900px;
+    border: 3px solid black;
+    margin:auto;
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/1387785129/vector/background-with-numbers-scattered-chaotic.jpg?s=612x612&w=0&k=20&c=4onlQ__gGdJIvvg-_QQxfVV6P2Gve07yW9hc7E_-u-g=");
+}
+#a{
+    font-size: large;
+    margin-right: 150px;
+}
+#b{
+    font-size: large;
+    margin-right:186px;
+}
+#c{
+    font-size: large;
+    margin-left:2px;
+}
+#d{
+    font-size: large;
+    margin-right:31px;
+}
+#tries{
+    height:50px;
+}
+#n1{
+    margin-top: 25px;
+    height:40px;
+    width:300px;
+}
+.z{
+    margin-right:250px;
+    background-color:rgb(77, 173, 91);
+    height:30px;
+}
+.y{
+    height:30px;
+    background-color:rgb(77, 173, 91);
+}
